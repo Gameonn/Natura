@@ -1,7 +1,7 @@
 // Colors
 $color-primary: #55c57a;
+$color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
-$color-primary-light: #7ed5ef;
 
 $color-secondary-dark: #ff7730;
 $color-secondary-light: #ffb900;
@@ -13,13 +13,18 @@ $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 
 $color-white: #fff;
-$color-grey-dark: #777;
-$color-black: #000;
 
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-black: #000;
 
 // Font
 $default-font-size: 1.6rem;
 
+// Border
+$border-radius-sm: 3px;
 
 // Grid
 $grid-width: 114rem;

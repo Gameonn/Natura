@@ -61,8 +61,8 @@
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: $border-radius-sm;
+    border-top-right-radius: $border-radius-sm;
 
     &--1 {
       background-image: linear-gradient(
