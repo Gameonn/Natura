@@ -3,18 +3,18 @@
 }
 
 .u-margin-bottom-big {
-  margin-bottom: 8rem;
+  margin-bottom: 4 * $default-margin;
 }
 .u-margin-bottom-medium {
-  margin-bottom: 4rem;
+  margin-bottom: 2 * $default-margin;
 }
 .u-margin-bottom-small {
-  margin-bottom: 1.5rem;
+  margin-bottom: $default-margin;
 }
 
 .u-margin-top-big {
-  margin-top: 8rem;
+  margin-top: 4 * $default-margin;
 }
 .u-margin-top-medium {
-  margin-top: 4rem;
+  margin-top: 2 * $default-margin;
 }
