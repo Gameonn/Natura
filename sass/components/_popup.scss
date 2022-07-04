@@ -6,6 +6,9 @@
   top: 0;
   left: 0;
   z-index: 300;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in;
 
   &__content {
     @include centered(50%, 50%);
@@ -15,6 +18,9 @@
     border-radius: 3px;
     display: table;
     overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.3);
+    transition: all 0.4s 0.2s;
   }
 
   &__left {
@@ -34,5 +40,41 @@
   }
   &__text {
     font-size: 1.4rem;
+
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 1px solid $color-grey-light-2;
+
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
+  &:target &__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  &__close {
+    &:link,
+    &:visited {
+      color: $color-grey-dark;
+      position: absolute;
+      top: 3rem;
+      right: 3rem;
+      font-size: 2 * $default-font-size;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s;
+      line-height: 1;
+    }
+    &:hover {
+      color: $color-primary;
+    }
   }
 }
