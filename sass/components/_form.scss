@@ -41,8 +41,7 @@
   }
 
   &__input:placeholder-shown + &__label {
-    opacity: 0;
-    visibility: hidden;
+    @include visibility(0, hidden);
     transform: translateY(-4rem);
   }
 

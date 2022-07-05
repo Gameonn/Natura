@@ -6,8 +6,7 @@
   top: 0;
   left: 0;
   z-index: 300;
-  opacity: 0;
-  visibility: hidden;
+  @include visibility(0, hidden);
   transition: all 0.3s ease-in;
 
   &__content {
@@ -52,8 +51,7 @@
   }
 
   &:target {
-    opacity: 1;
-    visibility: visible;
+    @include visibility(1, visible);
   }
   &:target &__content {
     opacity: 1;

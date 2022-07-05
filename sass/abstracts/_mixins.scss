@@ -12,3 +12,8 @@
   left: $left;
   transform: translate(-50%, -50%);
 }
+
+@mixin visibility($o, $v) {
+  opacity: $o;
+  visibility: $v;
+}
