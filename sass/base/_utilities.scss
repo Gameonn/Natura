@@ -4,9 +4,15 @@
 
 .u-margin-bottom-big {
   margin-bottom: 4 * $default-margin;
+  @include respond(tab-port) {
+    margin-bottom: 5rem;
+  }
 }
 .u-margin-bottom-medium {
   margin-bottom: 2 * $default-margin;
+  @include respond(tab-port) {
+    margin-bottom: 3rem;
+  }
 }
 .u-margin-bottom-small {
   margin-bottom: $default-margin;

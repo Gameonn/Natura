@@ -15,10 +15,19 @@
   text-transform: uppercase;
   text-align: center;
 
+  @include respond(phone) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+
   &__logo-box {
     position: absolute;
     top: 40px;
     left: 40px;
+    @include respond(phone) {
+      top: 30px;
+      left: 30px;
+    }
   }
 
   &__logo-img {
