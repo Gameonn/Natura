@@ -92,16 +92,22 @@
           <div class="col-1-of-2">
             <div class="composition">
               <img
+                srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
                 src="img/nat-1-large.jpg"
                 alt="Pic1"
                 class="composition__photo composition__photo--p1"
               />
               <img
+                srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
                 src="img/nat-2-large.jpg"
                 alt="Pic2"
                 class="composition__photo composition__photo--p2"
               />
               <img
+                srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
                 src="img/nat-3-large.jpg"
                 alt="Pic3"
                 class="composition__photo composition__photo--p3"
@@ -397,7 +403,20 @@
 
     <footer class="footer">
       <div class="footer__logo-box u-margin-bottom-medium">
-        <img src="img/FT.png" alt="Full Logo" class="footer__logo" />
+        <picture class="footer__logo">
+          <source
+            srcset="
+              img/logo-green-small-1x.png 1x,
+              img/logo-green-small-2x.png 2x
+            "
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+            alt="Full Logo"
+            class="footer__logo"
+          />
+        </picture>
       </div>
       <div class="row">
         <div class="col-1-of-2">

@@ -1,13 +1,15 @@
 .popup {
   height: 100vh;
   width: 100%;
-  background: rgba($color-black, 0.95);
+  background: rgba($color-black, 0.8);
   position: fixed;
   top: 0;
   left: 0;
   z-index: 300;
   @include visibility(0, hidden);
   transition: all 0.3s ease-in;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 
   &__content {
     @include centered(50%, 50%);
