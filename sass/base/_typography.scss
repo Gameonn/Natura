@@ -79,7 +79,6 @@ body {
 
 .paragraph {
   font-size: $default-font-size;
-  text-transform: uppercase;
 
   &:not(:last-child) {
     margin-bottom: 1.5 * $default-font-size;
