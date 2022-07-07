@@ -8,8 +8,14 @@
   z-index: 300;
   @include visibility(0, hidden);
   transition: all 0.3s ease-in;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+
+  // if browser supports rule then the style would be applied
+  @supports (-webkit-backdrop-filter: blur(10px)) or
+    (backdrop-filter: blur(10px)) {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba($color-black, 0.6);
+  }
 
   &__content {
     @include centered(50%, 50%);
