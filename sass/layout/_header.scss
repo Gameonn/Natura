@@ -1,9 +1,9 @@
 .header {
   height: 85vh;
   background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary-light, 0.5),
-      rgba($color-primary-dark, 0.5)
+      to left top,
+      rgba($color-primary-dark, 0.6),
+      rgba($color-primary-light, 0.8)
     ),
     url("../img/hero-small.jpg");
 

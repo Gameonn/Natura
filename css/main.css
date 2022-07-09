@@ -343,9 +343,9 @@ body {
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
       .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, #7ed16a, #008000); }
+        background-image: linear-gradient(to right bottom, #7ed16a, rgba(0, 128, 0, 0.6)); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #5643fa, #2998ff); }
+        background-image: linear-gradient(to right bottom, #5643fa, rgba(41, 152, 255, 0.5)); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -418,8 +418,9 @@ body {
     color: #fff;
     margin-bottom: 8rem; }
   .card__price-only {
-    font-size: 1.4rem;
-    text-transform: uppercase; }
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
@@ -464,7 +465,7 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   border: none;
   border-bottom: 3px solid transparent;
-  width: 80%;
+  width: 75%;
   display: block; }
   .form__input:focus {
     outline: none;
@@ -754,7 +755,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 209, 106, 0.5), rgba(0, 128, 0, 0.5)), url("../img/hero-small.jpg");
+  background-image: linear-gradient(to left top, rgba(0, 128, 0, 0.6), rgba(126, 209, 106, 0.8)), url("../img/hero-small.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -921,7 +922,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 209, 106, 0.75), rgba(0, 128, 0, 0.75)), url("../img/nat-4.jpg");
+  background-image: linear-gradient(to right bottom, rgba(126, 209, 106, 0.7), rgba(0, 128, 0, 0.8)), url("../img/nat-4.jpg");
   background-size: cover;
   background-position: top;
   transform: skewY(-7deg);
