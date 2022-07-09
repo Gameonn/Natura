@@ -22,7 +22,7 @@ body {
     animation-timing-function: ease-out;
 
     @include respond(phone) {
-      font-size: 3 * $default-font-size;
+      font-size: 3.2 * $default-font-size;
       letter-spacing: 1rem;
     }
   }
@@ -72,13 +72,14 @@ body {
 }
 
 .tertiary-heading {
-  font-size: $default-font-size;
+  font-size: 1.3 * $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .paragraph {
-  font-size: $default-font-size;
+  font-size: 1.1 * $default-font-size;
+  letter-spacing: 1px;
 
   &:not(:last-child) {
     margin-bottom: 1.5 * $default-font-size;
