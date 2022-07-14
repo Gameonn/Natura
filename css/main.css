@@ -110,14 +110,16 @@ body {
   background-image: linear-gradient(to right, #7ed16a, #008000);
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: 0.2rem;
-  transition: all 0.2s; }
+  letter-spacing: 0.1rem;
+  transition: all 0.2s;
+  line-height: 5rem; }
   @media only screen and (max-width: 900px) {
     .secondary-heading {
-      font-size: 3.2rem; } }
+      font-size: 3.1rem;
+      line-height: normal; } }
   @media only screen and (max-width: 600px) {
     .secondary-heading {
-      font-size: 2.4rem; } }
+      font-size: 2.2rem; } }
   .secondary-heading:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -128,7 +130,7 @@ body {
   text-transform: uppercase; }
 
 .paragraph {
-  font-size: 1.76rem;
+  font-size: 1.8rem;
   letter-spacing: 1px; }
   .paragraph:not(:last-child) {
     margin-bottom: 2.4rem; }
@@ -564,17 +566,31 @@ body {
     transition: all 0.4s 0.2s; }
   .popup__left {
     width: 33.33%;
-    display: table-cell; }
+    display: table-cell;
+    vertical-align: middle; }
+    @media only screen and (max-width: 1200px) {
+      .popup__left {
+        width: 50%;
+        display: table-cell;
+        padding-left: 3rem;
+        padding-top: 3rem; } }
   .popup__right {
     width: 66.67%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media only screen and (max-width: 1200px) {
+      .popup__right {
+        padding: 3rem; } }
   .popup__img {
     display: block;
     width: 100%; }
+    @media only screen and (max-width: 1200px) {
+      .popup__img {
+        margin-bottom: 2.5rem; } }
   .popup__text {
     font-size: 1.4rem;
+    letter-spacing: 1px;
     column-count: 2;
     column-gap: 4rem;
     column-rule: 1px solid #eee;
@@ -582,6 +598,9 @@ body {
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto; }
+    @media only screen and (max-width: 600px) {
+      .popup__text {
+        column-count: 1; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }
