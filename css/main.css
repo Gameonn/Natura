@@ -730,7 +730,8 @@ body {
     @media only screen and (max-width: 900px) {
       .footer__copyright {
         width: 100%;
-        float: none; } }
+        float: none;
+        text-align: center; } }
 
 .row {
   max-width: 114rem;
