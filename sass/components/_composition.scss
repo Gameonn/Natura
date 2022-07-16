@@ -3,8 +3,7 @@
 
   &__photo {
     width: 55%;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    box-shadow: $card-shadow;
     border-radius: 2px;
     position: absolute;
     z-index: 10;
@@ -14,7 +13,7 @@
     @include respond(tab-port) {
       float: left;
       position: relative;
-      box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+      box-shadow: $card-shadow;
       width: 33.33%;
     }
 
@@ -48,7 +47,7 @@
     &:hover {
       outline: 1.5rem solid $color-primary;
       transform: scale(1.05) translateY(-0.5rem);
-      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+      box-shadow: $card-shadow;
       z-index: 20;
       border-radius: 0;
     }

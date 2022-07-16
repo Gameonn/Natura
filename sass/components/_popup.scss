@@ -21,7 +21,7 @@
     @include centered(50%, 50%);
     width: 75%;
     background-color: $color-white;
-    box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
+    box-shadow: $card-shadow;
     border-radius: 3px;
     display: table;
     overflow: hidden;

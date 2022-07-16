@@ -12,7 +12,7 @@
     right: 6rem;
     border-radius: 50%;
     z-index: 200;
-    box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
+    box-shadow: $btn-shadow;
     text-align: center;
     cursor: pointer;
 

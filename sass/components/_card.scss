@@ -16,7 +16,7 @@
     -webkit-backface-visibility: hidden;
     border-radius: 6px;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+    box-shadow: $card-shadow;
 
     &--front {
       background-color: $color-white;
@@ -209,7 +209,7 @@
     height: auto;
     border-radius: 3px;
     background-color: $color-white;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    box-shadow: $card-shadow;
 
     &__side {
       height: auto;

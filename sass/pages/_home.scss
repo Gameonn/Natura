@@ -83,7 +83,7 @@
     url("../img/nat-10.jpg");
   background-size: cover;
   border-radius: $border-radius-sm;
-  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.25);
+  box-shadow: $card-shadow;
 
   @include respond(tab-land) {
     background-image: linear-gradient(

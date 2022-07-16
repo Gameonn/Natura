@@ -18,7 +18,7 @@
 
     &:focus {
       outline: none;
-      box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+      box-shadow: $btn-shadow;
       border-bottom: $border-radius-sm solid $color-primary;
 
       &:invalid {

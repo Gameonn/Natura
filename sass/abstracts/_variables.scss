@@ -26,6 +26,10 @@ $default-font-size: 1.6rem;
 // Border
 $border-radius-sm: 3px;
 
+//shadow
+$btn-shadow: 0 1rem 2rem rbga($color-black, 0.15);
+$card-shadow: 0 1.5rem 4rem rgba($color-black, 0.25);
+
 // Margin
 $default-margin: 2rem;
 

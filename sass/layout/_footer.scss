@@ -53,7 +53,7 @@
     &:hover,
     &:active {
       color: $color-primary;
-      box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+      box-shadow: $btn-shadow;
       transform: rotate(5deg) scale(1.3);
     }
   }
