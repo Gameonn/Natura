@@ -18,6 +18,11 @@
   visibility: $v;
 }
 
+@mixin fullSize {
+  height: 100%;
+  width: 100%;
+}
+
 // Media Queries Manager
 /*
 0-600px       Phone

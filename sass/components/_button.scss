@@ -53,8 +53,9 @@
   &::after {
     content: "";
     display: inline-block;
-    height: 100%;
-    width: 100%;
+
+    @include fullSize;
+
     border-radius: 100px;
     position: absolute;
     top: 0;

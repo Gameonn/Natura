@@ -2,15 +2,16 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+
+  @include fullSize;
+
   z-index: -1;
   opacity: 0.15;
   overflow: hidden;
 
   &__content {
-    width: 100%;
-    height: 100%;
+    @include fullSize;
+
     object-fit: cover;
   }
 }
