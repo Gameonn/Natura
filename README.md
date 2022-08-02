@@ -2,10 +2,28 @@
 
 </h1>
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Sass Intro](#sass-intro)
+- [Demo](#demo)
+- [Preview](#preview)
+- [Challenge](#challenge)
+- [Built With](#built-with)
+- [Features](#features)
+- [Browser Support](#browser-support)
+- [How to use](#how-to-use)
+
+
+## Overview
+
+Sass Nature is a simplistic and responsive design for a tours and travels website. It has some cool animations, gradients used over background images, nice hover effects on buttons, fancy navigation with cool effects and a lot of other cool styling effects. 
+
+## Sass Intro
+
 **Sass makes CSS fun and quick**. Sass is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more. It's translated to well-formatted, standard CSS using the command line tool or a plugin for your
 build system.
 
-#### Sass Nature is a cool website design integrated with a lot of cool styling features. 
 
 ## Browser Support
 
@@ -16,10 +34,6 @@ At present, we officially aim to support the last two versions of the following 
 * Firefox
 * Safari
 * Internet Explorer IE11
-
-## Demo
-
-https://gameonn.github.io/Natura/
 
 
 
