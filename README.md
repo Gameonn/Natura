@@ -8,11 +8,8 @@
 - [Sass Intro](#sass-intro)
 - [Demo](#demo)
 - [Preview](#preview)
-- [Challenge](#challenge)
 - [Built With](#built-with)
-- [Features](#features)
 - [Browser Support](#browser-support)
-- [How to use](#how-to-use)
 
 
 ## Overview
@@ -29,7 +26,22 @@ build system.
 https://gameonn.github.io/Natura/
 
 ## Preview
-<img width="50%" alt="Sass" src="https://user-images.githubusercontent.com/6601996/182290851-cdfc500f-396e-4776-b31d-a0cf0d955bfa.png" />
+<img width="40%" alt="Sass" src="https://user-images.githubusercontent.com/6601996/182290851-cdfc500f-396e-4776-b31d-a0cf0d955bfa.png" />
+
+## Built With
+
+
+1. Sass
+    * Mixins
+    * Variables
+    * Nested rules and styling
+    * Selector inheritance
+    * Reference symbol
+
+2. CSS3 Animations
+3. Media queries
+
+
 
 ## Browser Support
 
@@ -40,9 +52,3 @@ At present, we officially aim to support the last two versions of the following 
 * Firefox
 * Safari
 * Internet Explorer IE11
-
-
-
-
-
-
