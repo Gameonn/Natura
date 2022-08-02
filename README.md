@@ -31,7 +31,6 @@ https://gameonn.github.io/Natura/
 ## Preview
 <img width="50%" alt="Sass" src="https://user-images.githubusercontent.com/6601996/182290851-cdfc500f-396e-4776-b31d-a0cf0d955bfa.png" />
 
-
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
