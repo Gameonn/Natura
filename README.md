@@ -37,7 +37,6 @@ https://gameonn.github.io/Natura/
     * Nested rules and styling
     * Selector inheritance
     * Reference symbol
-
 2. CSS3 Animations
 3. Media queries
 
