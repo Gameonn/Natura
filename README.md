@@ -1,5 +1,4 @@
 <h1><img width="200px" alt="Sass" src="https://rawgit.com/sass/sass-site/main/source/assets/img/logos/logo.svg" /> + <img width="170px" alt="Sass Nature" src="https://user-images.githubusercontent.com/6601996/178678919-6ea10200-bbeb-4ed1-80e1-7c411a7e9b09.png" />
-
 </h1>
 
 ## Table of Contents
