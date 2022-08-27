@@ -10,7 +10,6 @@
 - [Built With](#built-with)
 - [Browser Support](#browser-support)
 
-
 ## Overview
 
 Sass Nature is a simplistic and responsive design for a tours and travels website. It has some cool animations, gradients used over background images, nice hover effects on buttons, fancy navigation with cool effects and a lot of other cool styling effects. 
